@@ -128,7 +128,7 @@ A powerful AI/ML-based application that analyzes resumes and suggests optimal ca
 - **Multi-Source Skills**: Skills, Technology, Knowledge, Tools
 - **Regular Updates**: Automated sync capability
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 ```bash

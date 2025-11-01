@@ -1,8 +1,8 @@
-# 🚀 AI Career Suggester
+# AI Career Suggester
 
 A powerful AI/ML-based application that analyzes resumes and suggests optimal career paths using O*NET occupational data and machine learning.
 
-## ✨ Features
+##  Features
 
 - **Resume Parsing**: Extract skills, education, and experience from PDF/DOCX files
 - **AI-Powered Analysis**: Uses NLP and machine learning for accurate skill extraction
@@ -11,7 +11,7 @@ A powerful AI/ML-based application that analyzes resumes and suggests optimal ca
 - **Modern UI**: Beautiful, responsive React frontend with animations
 - **Real-time Processing**: Fast, efficient backend with FastAPI
 
-## 🏗️ Architecture
+##Architecture
 
 ```
 ├── backend/                 # Python FastAPI backend
@@ -30,7 +30,7 @@ A powerful AI/ML-based application that analyzes resumes and suggests optimal ca
 └── README.md              # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -92,7 +92,7 @@ A powerful AI/ML-based application that analyzes resumes and suggests optimal ca
    ```
    Frontend runs on: http://localhost:3000
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Core Endpoints
 
@@ -106,7 +106,7 @@ A powerful AI/ML-based application that analyzes resumes and suggests optimal ca
 
 - `POST /sync_onet/` - Manually sync O*NET data
 
-## 🎯 How It Works
+## How It Works
 
 ### 1. Resume Upload & Parsing
 - Supports PDF and DOCX formats
@@ -148,14 +148,14 @@ DB_PATH=career_skills.db
 - **Training Data**: O*NET occupational profiles
 - **Accuracy**: Typically 75-85% on test data
 
-## 📈 Performance
+## Performance
 
 - **Resume Processing**: ~2-5 seconds
 - **Career Suggestions**: ~1-3 seconds
 - **Database Size**: ~50MB (923 occupations, 10,000+ skills)
 - **Memory Usage**: ~200MB backend, ~100MB frontend
 
-## 🛠️ Development
+## Development
 
 ### Adding New Skills
 Skills are automatically extracted from O*NET. To add custom skills:
@@ -175,7 +175,7 @@ Skills are automatically extracted from O*NET. To add custom skills:
 - Update `App.css` for styling changes
 - Add new components in `src/components/`
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -214,14 +214,14 @@ curl http://localhost:8000/health/
 curl http://localhost:8000/stats/
 ```
 
-## 📝 Sample Usage
+## Sample Usage
 
 1. **Upload Resume**: Select PDF/DOCX file
 2. **View Extracted Data**: Skills, education, experience
 3. **Get Suggestions**: Top 5 career matches with confidence scores
 4. **Analyze Results**: Method used, skills matched, accuracy
 
-## 🚀 Production Deployment
+## Production Deployment
 
 ### Backend (FastAPI)
 ```bash
@@ -243,14 +243,14 @@ npm run build
 # Or deploy to Vercel/Netlify
 ```
 
-## 📊 Data Sources
+## Data Sources
 
 - **O*NET Database**: Official occupational data from U.S. Department of Labor
 - **Skills Taxonomy**: 1000+ standardized skills across industries
 - **Technology Skills**: Software, tools, and platforms by occupation
 - **Knowledge Areas**: Domain-specific knowledge requirements
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch: `git checkout -b feature-name`
@@ -258,11 +258,11 @@ npm run build
 4. Push to branch: `git push origin feature-name`
 5. Submit pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **O*NET Program**: For providing comprehensive occupational data
 - **U.S. Department of Labor**: For maintaining the O*NET database
@@ -270,4 +270,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Built with ❤️ using AI, Machine Learning, and Modern Web Technologies**
+
